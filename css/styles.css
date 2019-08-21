@@ -24,21 +24,17 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #5C848E;
+  color: #092a35;
   font-weight: normal;
   padding-bottom: 10px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #5C848E;
+  color: #092a35;
   font-weight: normal;
 }
 
-h4 {
-  font-family: 'Montserrat', sans-serif;
-  color: #092a35;
-}
 
 p {
   line-height: 2;
@@ -64,6 +60,10 @@ a:hover {
   background-color: #212125;
   position: relative;
   padding-top: 100px;
+}
+
+.programmer-splash {
+  color: #5C848E;
 }
 
 .middle-container {
@@ -108,13 +108,39 @@ a:hover {
   margin: 40px auto 60px
 }
 
+/*.butn {*/
+/*  background: #11cdd4;*/
+/*  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);*/
+/*  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);*/
+/*  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);*/
+/*  background-image: -o-linear-gradient(top, #11cdd4, #11999e);*/
+/*  background-image: linear-gradient(to bottom, #11cdd4, #11999e);*/
+/*  -webkit-border-radius: 8;*/
+/*  -moz-border-radius: 8;*/
+/*  border-radius: 8px;*/
+/*  font-family: 'Montserrat', sans-serif;*/
+/*  color: #ffffff;*/
+/*  font-size: 20px;*/
+/*  padding: 10px 20px 10px 20px;*/
+/*  text-decoration: none;*/
+/*}*/
+
+/*.butn:hover {*/
+/*  background: #30e3cb;*/
+/*  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);*/
+/*  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);*/
+/*  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);*/
+/*  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);*/
+/*  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);*/
+/*  text-decoration: none;*/
+/*}*/
 .butn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  background: #293462;
+  background-image: -webkit-linear-gradient(top, #293462, #41508a);
+  background-image: -moz-linear-gradient(top, #293462, #41508a);
+  background-image: -ms-linear-gradient(top, #293462, #41508a);
+  background-image: -o-linear-gradient(top, #293462, #41508a);
+  background-image: linear-gradient(to bottom, #293462, #41508a);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -126,12 +152,12 @@ a:hover {
 }
 
 .butn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  background: #315e7a;
+  background-image: -webkit-linear-gradient(top, #315e7a, #3081b8);
+  background-image: -moz-linear-gradient(top, #315e7a, #3081b8);
+  background-image: -ms-linear-gradient(top, #315e7a, #3081b8);
+  background-image: -o-linear-gradient(top, #315e7a, #3081b8);
+  background-image: linear-gradient(to bottom, #315e7a, #3081b8);
   text-decoration: none;
 }
 
@@ -140,3 +166,26 @@ a:hover {
   font-size: 0.75rem;
   padding: 20px 0;
 }
+
+.programmer-container {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  z-index: 1;
+  text-align: center;
+}
+
+/* Need to fix the hover trigger */
+.programmer-container:hover {
+  color: #EAF6F6;
+}
+
+audio.programmer-audio {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  z-index: 2;
+  opacity: 0.01;
+}
+
