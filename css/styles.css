@@ -31,6 +31,12 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #5C848E;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
   color: #092a35;
 }
 
@@ -81,7 +87,8 @@ a:hover {
 }
 
 .pro {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  font-weight: bold;
 }
 
 .top-cloud {
