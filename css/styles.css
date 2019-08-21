@@ -1,3 +1,7 @@
+#programmer-pronunciation {
+  display:none;
+}
+
 body {
   background-color: #e0e0ec;
   color: #537d91;
@@ -167,17 +171,12 @@ a:hover {
   padding: 20px 0;
 }
 
-.programmer-container {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  overflow: hidden;
-  z-index: 1;
-  text-align: center;
+.programmer-pronunciation {
+  margin: 0;
+  color: #5C848E;
 }
 
-/* Need to fix the hover trigger */
-.programmer-container:hover {
+.programmer-pronunciation:hover {
   color: #EAF6F6;
 }
 
