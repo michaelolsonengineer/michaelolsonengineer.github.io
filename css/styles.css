@@ -60,29 +60,19 @@ a:hover {
   margin: auto;
 }
 
-.top-container {
-  background-color: #212125;
-  position: relative;
-  padding: 100px 220px 0 220px;
-}
-
 .programmer-splash {
   color: #5C848E;
-}
-
-.middle-container {
-  margin: 80px 0;
-}
-
-.bottom-container {
-  background-color: #212125;
-  padding: 50px 0 20px;
 }
 
 .skill-row {
   width: 30%;
   margin: 100px auto;
   text-align: left;
+}
+
+.mountain {
+  height: 14rem;
+  width: 14rem;
 }
 
 .profile-img {
@@ -177,4 +167,82 @@ audio.programmer-audio {
   left: -5px;
   z-index: 2;
   opacity: 0.01;
+}
+
+.top-container {
+  background-color: #212125;
+  position: relative;
+  padding: 100px 220px 0 220px;
+}
+
+.middle-container {
+  margin: 80px 0;
+}
+
+.bottom-container {
+  background-color: #212125;
+  padding: 50px 0 20px;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 3.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #5C848E;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #092a35;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+
+  .profile-img {
+    position: relative;
+    top: 37px;
+    left: 85px;
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+
+  .top-container {
+    background-color: #212125;
+    position: relative;
+    padding: 100px 20px 0 20px;
+  }
+
+  .programmer-splash {
+    color: #5C848E;
+    font-size: 1rem;
+  }
+
+  .skill-row {
+    width: 80%;
+    margin: 100px auto;
+    text-align: left;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
 }
