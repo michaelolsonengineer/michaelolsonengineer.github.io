@@ -63,7 +63,7 @@ a:hover {
 .top-container {
   background-color: #212125;
   position: relative;
-  padding-top: 100px;
+  padding: 100px 220px 0 220px;
 }
 
 .programmer-splash {
@@ -71,7 +71,7 @@ a:hover {
 }
 
 .middle-container {
-  margin: 100px 0;
+  margin: 80px 0;
 }
 
 .bottom-container {
@@ -83,6 +83,14 @@ a:hover {
   width: 30%;
   margin: 100px auto;
   text-align: left;
+}
+
+.profile-img {
+  position: relative;
+  top: 57px;
+  left: 115px;
+  height: 4.5rem;
+  width: 4.5rem;
 }
 
 .design-img {
