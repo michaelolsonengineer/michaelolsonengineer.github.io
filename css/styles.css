@@ -1,7 +1,3 @@
-#programmer-pronunciation {
-  display:none;
-}
-
 body {
   background-color: #e0e0ec;
   color: #537d91;
@@ -168,7 +164,7 @@ a:hover {
   color: #EAF6F6;
 }
 
-audio.programmer-audio {
+.programmer-audio {
   position: absolute;
   top: -5px;
   left: -5px;
