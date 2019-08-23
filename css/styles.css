@@ -1,7 +1,3 @@
-#programmer-pronunciation {
-  display:none;
-}
-
 body {
   background-color: #e0e0ec;
   color: #537d91;
@@ -64,6 +60,12 @@ a:hover {
   color: #5C848E;
 }
 
+.profile-row {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
 .skill-row {
   width: 30%;
   margin: 100px auto;
@@ -71,16 +73,17 @@ a:hover {
 }
 
 .mountain {
-  height: 14rem;
-  width: 14rem;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .profile-img {
+  float: left;
   position: relative;
-  top: 57px;
-  left: 115px;
-  height: 4.5rem;
-  width: 4.5rem;
+  top: 8px;
+  margin:0 30px;
 }
 
 .design-img {
@@ -116,7 +119,7 @@ a:hover {
 
 .contact-message {
   width: 40%;
-  margin: 40px auto 60px
+  margin: 40px auto 60px;
 }
 
 .butn {
@@ -161,7 +164,7 @@ a:hover {
   color: #EAF6F6;
 }
 
-audio.programmer-audio {
+.programmer-audio {
   position: absolute;
   top: -5px;
   left: -5px;
@@ -216,14 +219,6 @@ audio.programmer-audio {
     padding-bottom: 10px;
   }
 
-  .profile-img {
-    position: relative;
-    top: 37px;
-    left: 85px;
-    height: 4.5rem;
-    width: 4.5rem;
-  }
-
   .top-container {
     background-color: #212125;
     position: relative;
@@ -233,6 +228,17 @@ audio.programmer-audio {
   .programmer-splash {
     color: #5C848E;
     font-size: 1rem;
+  }
+
+  .contact-message {
+    width: 80%;
+    margin: 0 auto 60px;
+  }
+
+  .profile-row {
+    width: 80%;
+    margin: 0 20px;
+    text-align: center;
   }
 
   .skill-row {
